@@ -217,7 +217,7 @@
 </div>
 <?php
 //Kết nối theo Mysqli procedural
-$connect = mysqli_connect('3.132.234.157','hungnp','123@123a','mydb');
+$connect = mysqli_connect('3.132.234.157','hungnp','123@123a','mydb2');
 if($connect){
 	//echo "Kết nối thành công";
 }

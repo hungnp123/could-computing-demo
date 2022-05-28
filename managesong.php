@@ -43,7 +43,7 @@
         <th>Action: </th>
      </tr> 
         <?php 
-        $connect = mysqli_connect('3.132.234.157','hungnp','123@123a','mydb');
+        $connect = mysqli_connect('3.132.234.157','hungnp','123@123a','mydb2');
         $sql = "SELECT * FROM song,artist,genre WHERE song.Song_genre = genre.genre_ID and song.Song_artist= artist.artist_ID";
         $result = mysqli_query($connect, $sql);
         while($row= mysqli_fetch_array($result)){

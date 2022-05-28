@@ -76,7 +76,7 @@
       </nav>  
     </div>
   <?php
-              $connect=mysqli_connect('3.132.234.157','hungnp','123@123a','mydb');
+              $connect=mysqli_connect('3.132.234.157','hungnp','123@123a','mydb2');
               if (!$connect)
               {
                 echo (" Not connect");
