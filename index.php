@@ -161,7 +161,7 @@
         		</div>
             		<div class="ftsong">
             			<?php 
-            			$connect = mysqli_connect(''3.132.234.157,'hungnp','123@123a','mydb');
+            			$connect = mysqli_connect('3.132.234.157','hungnp','123@123a','mydb');
             			if(!$connect){
             				echo "Kết nối thất bại";
             			}
