@@ -237,7 +237,7 @@ $row = mysqli_num_rows($result);
 
 if($row>0){
 	echo"<script>alert('login sucessfuly')</script>";
-	echo"<script> window.open('homepage.php','_self') </script>";
+	echo"<script> window.open('index.php','_self') </script>";
 }
 else{
 	echo"<script>alert(wrong user name or password)</script>";
