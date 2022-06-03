@@ -13,7 +13,7 @@
         margin: auto;
     }
     body{
-    	background-color: rgba(30,30,32,.9);
+    	background-color: #1C3334;
     }
     .wrapper{
         width:  auto;
@@ -33,7 +33,6 @@
 		margin-top: 15px;
 		margin-right: 10px;
 		margin-left: 10px;
-		margin-bottom: 15px;
 	}
 	.single-song{
 		text-align: center;
@@ -54,7 +53,7 @@
     	margin-left:15px;
     	margin-right:15px;
     	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
- 		background:rgba(30,30,32,.9);
+ 		background: #376E6F;
     }
     input[type=submit]{
         border-color: #0080FF;
@@ -71,7 +70,7 @@
     	border: 10px solid transparent;
     }
     .card-img-top:hover {
-    	border-color: #99CCFF;
+    	border-color: #DA7B93;
     }
     .card-img-top{
     	border-radius: 100%;
@@ -87,7 +86,7 @@
 <body>
 	<div class="wrapper">
 		<div class="header">
-			<nav class="navbar navbar-inverse">
+			<nav class="navbar navbar-default">
 				<div class="container-fluid">
 					<div class="navbar-header">
 						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -95,7 +94,7 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>                        
 						</button>
-						<a href="homepage.php"><img style="margin: 15px;" src="Img/logoweb.jpg" width="80px" height="80px"></a>
+						<a href="index.php"><img style="margin: 10px;" src="Img/logotoy.jpg" width="180px" height="65px"></a>
 					</div>
 					<div class="collapse navbar-collapse" id="myNavbar">
 						<ul class="nav navbar-nav">
@@ -105,16 +104,16 @@
 									<ul class="dropdown-menu">
 										<li><a href="login2.php">Login</a></li>
 										<li><a href="signup.php">Sign Up</a></li>
-										<li><a href="add.php">add product</a></li>
+										<li><a href="add.php">Add new toys</a></li>
 									</ul>
 								</li>
-								<li><a href="managetoy.php"><span class=" glyphicon glyphicon-music"> Song</a></li>
+								<li><a href="managesong.php"><span class=" glyphicon glyphicon-gift"> Toys</a></li>
 								<li><a href="introduction.php"><span class=" glyphicon glyphicon-bookmark"> About us</a></li>
 						</ul>
 							<ul class="nav navbar-nav navbar-right">
-								<div style="margin-top: 25px;" id="form_search">
+								<div style="margin-top: 26px;" id="form_search">
 									<form method="get" action="search.php">
-										<input type="text" name="user_query" placeholder="Search a music" />
+										<input type="text" name="user_query" placeholder="Search a toy" />
 										<input type="submit" name="Search" value="search" />
 									</form>
 								</div>	
@@ -132,13 +131,13 @@
    					 </ol>
                     <div class="carousel-inner" role="listbox">
       					<div class="item active">
-        					<img  src="Img/banner2.jpg" width="1000" height="500" alt="banner 1">    
+        					<img  src="Img/tbanner7.jpg" width="1200" height="600" alt="banner 1">    
       					</div>
      					<div class="item">
-                            <img src="Img/banner6.jpg" width="1000Px" height="500Px" alt="banner 2">
+                            <img src="Img/tbanner6.jpg" width="1200Px" height="600Px" alt="banner 2">
       					</div>
       					<div class="item">
-        					<img src="Img/banner7.jpg" width="1000Px" height="500Px" alt="banner 3">
+        					<img src="Img/tbanner2.jpg" width="1200Px" height="600Px" alt="banner 3">
       					</div>
     				</div>
     				<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
@@ -155,7 +154,7 @@
         	<div class="right1">
         		<div class="col-xs-12 col-lg-12 col-md-12">
         			<hr>
-            		<h3 style="text-align: center; color:#2D6AE5; font-family:Comic Sans Ms;">=============== Featured Song ===============</h3>
+            		<h3 style="text-align: center; color:#2D6AE5; font-family:Comic Sans Ms;">=============== New Toys ===============</h3>
             		<hr>
             		<br>
         		</div>
