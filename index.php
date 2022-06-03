@@ -95,7 +95,7 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>                        
 						</button>
-						<a href="homepage.php"><img style="margin: 15px;" src="Img/weblogo.jpg" width="180px" height="50px"></a>
+						<a href="homepage.php"><img style="margin: 15px;" src="Img/logoweb.jpg" width="180px" height="180px"></a>
 					</div>
 					<div class="collapse navbar-collapse" id="myNavbar">
 						<ul class="nav navbar-nav">
