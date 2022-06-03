@@ -95,20 +95,20 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>                        
 						</button>
-						<a href="homepage.php"><img style="margin: 15px;" src="Img/logoweb.jpg" width="180px" height="180px"></a>
+						<a href="homepage.php"><img style="margin: 15px;" src="Img/logoweb.jpg" width="80px" height="80px"></a>
 					</div>
 					<div class="collapse navbar-collapse" id="myNavbar">
 						<ul class="nav navbar-nav">
-							<li><a href="homepage.php"><span class=" glyphicon glyphicon-home"> Home</a></li>
+							<li><a href="index.php"><span class=" glyphicon glyphicon-home"> Home</a></li>
 								<li class="dropdown">
 									<a class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"> Account<span class="caret"></span></a>
 									<ul class="dropdown-menu">
 										<li><a href="login2.php">Login</a></li>
 										<li><a href="signup.php">Sign Up</a></li>
-										<li><a href="cart.php">Cart</a></li>
+										<li><a href="add.php">add product</a></li>
 									</ul>
 								</li>
-								<li><a href="managesong.php"><span class=" glyphicon glyphicon-music"> Song</a></li>
+								<li><a href="managetoy.php"><span class=" glyphicon glyphicon-music"> Song</a></li>
 								<li><a href="introduction.php"><span class=" glyphicon glyphicon-bookmark"> About us</a></li>
 						</ul>
 							<ul class="nav navbar-nav navbar-right">
